@@ -1,0 +1,24 @@
+.main{
+    background-color: lightgrey;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.login-box{
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.box{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn{
+    width: 100%;
+}
