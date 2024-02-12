@@ -1,0 +1,24 @@
+.navbar{
+    // background-color: rgb(20, 93, 229);
+    background:#1c4998;
+    background-color: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+}
+
+.btn{
+    // background-color: #81b1ce;
+    background-color: #FC8955;
+    
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: blue;
+    transition: ease-in-out;
+}
+.circle {
+    width:35px; /* Adjust width and height as needed */
+    height: 35px; /* Adjust width and height as needed */
+    background-image: url("../../assets/user.gif");
+    background-size: cover;
+    background-color: rgb(127, 189, 237); /* Change color as needed */
+    border-radius: 50%; /* Makes it a circle */
+}

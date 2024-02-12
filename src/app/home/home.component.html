@@ -1,7 +1,12 @@
 <div class="main">
-    <div class="row">
-        <div class="col-md-3">
-           <app-left-menu class="left-menu-section"></app-left-menu>
+    <div class="left-menu">
+        <app-left-menu class="left-menu-section"></app-left-menu>
+    </div>
+    <div class="right-section ">
+        <app-navigation></app-navigation>
+        <div class="container">
+            <router-outlet></router-outlet>
         </div>
+
     </div>
 </div>

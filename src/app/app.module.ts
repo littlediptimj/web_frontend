@@ -7,6 +7,10 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardReportComponent } from './dashboard-report/dashboard-report.component';
+import { EmployeeComponent } from './employee/employee.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { ProjectReportComponent } from './dashboard-report/project-report/project-report.component';
 
 
 @NgModule({
@@ -16,6 +20,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HomeComponent,
     LeftMenuComponent,
     DashboardComponent,
+    DashboardReportComponent,
+    EmployeeComponent,
+    NavigationComponent,
+    ProjectReportComponent,
    
   ],
   imports: [
